@@ -1,4 +1,4 @@
-# Unifaat :: Frontend :: Aula 02 - CSS, Seletores e Responsividade <a name="unifaat-frontend-aula02-css-seletores"></a>
+# Unifaat :: Frontend :: Aula 02 - CSS, Seletores e Responsividade <a name="unifaat-frontend-tf-aula02-css-seletores"></a>
 
 ## 📑 Sumário
 1. [Instalação e Execução](#instalacao-e-execucao)  
@@ -15,13 +15,13 @@
 1. Clonar o repositório:
 
    ```sh
-   git clone https://github.com/luan-tavares/unifaat-frontend-aula02-css-seletores
+   git clone https://github.com/luan-tavares/unifaat-frontend-tf-aula02-css-seletores
    ```
 
 2. Entrar na pasta do projeto:
 
    ```sh
-   cd unifaat-frontend-aula02-css-seletores
+   cd unifaat-frontend-tf-aula02-css-seletores
    ```
 
 3. Subir a aplicação com Docker Compose:
