@@ -1,4 +1,4 @@
-# Unifaat :: Frontend :: Aula 02 - CSS, Seletores e Responsividade <a name="unifaat-frontend-tf-aula02-css-seletores"></a>
+# Unifaat :: Frontend :: TF Aula 02 - CSS, Seletores e Responsividade <a name="unifaat-frontend-tf-aula02-css-seletores"></a>
 
 ## 📑 Sumário
 1. [Instalação e Execução](#instalacao-e-execucao)  
