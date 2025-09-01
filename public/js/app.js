@@ -5,7 +5,10 @@ liElementCollection.forEach((liElement) => {
     liElement.addEventListener("click", (event) => {
         const liElement = event.currentTarget;
 
+        liElementCollection.forEach((li) => {
+            li.classList.remove("selected");
+        });
 
-        /** CODAR AQUI */
+        liElement.classList.add("selected");
     });
 });

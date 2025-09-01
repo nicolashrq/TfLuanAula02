@@ -3,24 +3,72 @@
     margin: 0;
 }
 
-.content ul.demo>li {
+.content ul.demo > li {
     border-left: 2px solid transparent;
     background-color: #F0F0F0;
     padding: 8px;
     margin-bottom: 2px;
 }
 
-.content ul.demo>li.selected {
+.content ul.demo > li.selected {
     border-left: 2px solid #000;
     background-color: #00FF00;
 }
 
-
-/** CODAR SELETORES **/
-
-/* EX 1*/
-.content ul.demo>li:first-child {
+.content ul.demo > li:nth-child(1) {
     background-color: yellow;
 }
 
-/** Continue aqui **/
+#unico span {
+    color: red;
+}
+
+li[data-type="attr"] span {
+    text-decoration: underline;
+}
+
+li[data-role~="user"] span {
+    font-style: italic;
+}
+
+.content ul.demo > li:nth-child(5) span {
+    font-size: 1.2em;
+}
+
+.content ul.demo > li:nth-child(6) span {
+    border: 2px solid blue;
+}
+
+li.ativo span {
+    background-color: #ccc;
+}
+
+.content ul.demo > li:nth-child(8) span {
+    font-weight: bold;
+}
+
+li.especial.destaque span {
+    text-transform: uppercase;
+}
+
+li[lang="pt-br"] span {
+    color: green;
+}
+
+li[title^="começa-com"] span {
+    font-style: italic;
+}
+
+li[title$="termina-com"] span {
+    background-color: pink;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
